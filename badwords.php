@@ -21,6 +21,10 @@ $censoredText = str_ireplace($censor, "***", $paragraph)  //Case insensitive
 </head>
 <body>
   <div class="container w-75">
+   <h1 class="text-success">Your paragraph and its length:</h1>
+   <p> <?php  echo $paragraph  ?></p>
+   <p> <?php  echo strlen($paragraph)    ?></p>
+ 
    <h1 class="text-primary">Your new paragraph:</h1>
   <p class="fw-6"> <?php echo $censoredText ?></p>
   </div>
