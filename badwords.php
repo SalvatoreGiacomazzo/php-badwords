@@ -22,11 +22,11 @@ $censoredText = str_ireplace($censor, "***", $paragraph)  //Case insensitive
 <body>
   <div class="container w-75">
    <h1 class="text-success">Your paragraph and its length:</h1>
-   <p> <?php  echo  $paragraph . ' Lunghezza: ' . strlen($paragraph) ?></p>
+   <p> <?php  echo  $paragraph .                 ' Lunghezza: ' . strlen($paragraph) ?></p>
 
  
    <h1 class="text-primary">Your censored paragraph:</h1>
-  <p class="fw-6"> <?php echo $censoredText . ' Lunghezza: ' . strlen($censoredText) ?></p>
-  </div>
+  <p class="fw-6"> <?php echo $censoredText .              '   Lunghezza: ' . strlen($censoredText) ?></p>
+  </div> 
 </body>
 </html>

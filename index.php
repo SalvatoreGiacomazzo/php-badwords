@@ -19,14 +19,14 @@
 
 <div class="form-group mt-5">
     <label for="badwords-paragraph">Write a paragraph!</label>
-    <textarea class="form-control" name="badwordsParagraph" id="badwords-paragraph" rows="3"></textarea>
+    <textarea required class="form-control" name="badwordsParagraph" id="badwords-paragraph" rows="3"></textarea>
   </div>
 
 
 
   <div class="form-group">
     <label for="badwords-censored-word">Write a word to censor!</label>
-    <input type="text" class="form-control" name="badwordsCensor" id="badwords-censored-word" placeholder="">
+    <input required type="text" class="form-control" name="badwordsCensor" id="badwords-censored-word" placeholder="">
   </div>
 
 
