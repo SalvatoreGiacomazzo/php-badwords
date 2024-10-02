@@ -3,8 +3,6 @@
 
   
 
-   var_dump($projectTitle);
-
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,6 +13,10 @@
     
 </head>
 <body>
+<h1>
+    <?php echo $projectTitle ?>
+</h1>
+
 
 </body>
 </html>
