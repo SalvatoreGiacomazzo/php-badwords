@@ -1,5 +1,5 @@
 <?php     
-
+   echo 'PHP Bad Words'
 
     ?>
     <!DOCTYPE html>
@@ -10,6 +10,6 @@
         <title>PHP Bad Words</title>
     </head>
     <body>
-        <h1>PHP BAD WORDS</h1>
+       
     </body>
     </html>
